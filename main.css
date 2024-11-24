@@ -143,3 +143,24 @@ body {
   @apply hover:translate-x-12 transition hover:duration-700 hover:scale-105 hover:-translate-y-12 cursor-pointer lg:animate-pulse duration-1000 hover:animate-none;
 }
 /* this is about-section end*/
+
+/* this is Creative-Before strat */
+.creative-before {
+  @apply bg-white flex lg:flex-row flex-col lg:gap-28 md:gap-12 gap-8 justify-around md:items-center w-full md:p-16 p-6 lg:px-36 md:px-8 md:-mt-20 mt-12;
+}
+.c-b-div {
+  @apply flex flex-col p-6 py-12 relative md:w-2/3 h-full md:scale-110 hover:scale-105 hover:contrast-200 transition-all duration-500 hover:shadow-xl lg:hover:-mt-24 md:hover:scale-125 md:hover:cursor-progress scale-90;
+}
+.c-b-logo {
+  @apply w-fit;
+}
+.c-b-text-1 {
+  @apply text-xl font-bold;
+}
+.c-b-text-2 {
+  @apply text-[12px] text-[#757095] pt-1;
+}
+.c-b-bg {
+  @apply absolute h-full right-0 top-0 scale-125;
+}
+/* this is Creative-Before end */
