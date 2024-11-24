@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+    @apply font-custom;
+  }
+  .respScreen {
+    @apply container mx-auto;
+  }
+  /* this is Header-Section start */
+  .header-section {
+    @apply respScreen bg-white flex justify-between items-center py-3 px-2 md:drop-shadow-none drop-shadow-xl;
+  }
+  .logo {
+    @apply scale-95;
+  }
+  .nav-bar {
+    @apply flex flex-row gap-4 md:visible md:static invisible absolute;
+  }
+  .nav-items {
+    @apply text-[#072125] hover:text-[#F44335] hover:animate-pulse hover:duration-1000 transition-all;
+  }
+  .nav-item-2 {
+    @apply text-[#F44335] hover:text-[#F44335] hover:animate-pulse hover:duration-1000 transition-all;
+  }
+  .header-section-button {
+    @apply bg-[#F44335] text-white px-4 py-2 rounded-lg hover:scale-105 hover:translate-y-1 transition-all md:visible md:static invisible absolute;
+  }
+  .hamburger-menu {
+    @apply md:hidden;
+  }
+  .hamburger-section {
+    @apply respScreen bg-[#F44335] items-center py-1 px-2;
+  }
+  .hamB-items {
+    @apply text-[#072125] text-[14px] hover:text-white hover:animate-pulse hover:duration-1000 transition-all;
+  }
+  .hamB-item-2 {
+    @apply text-white text-[14px] hover:text-white hover:animate-pulse hover:duration-1000 transition-all;
+  }
+  .hamB-section-div {
+    @apply grid grid-cols-2 col-span-2 text-center gap-2 w-full py-1;
+  }
+  .hamB-section-button {
+    @apply text-[#F44335] bg-white px-4 py-2 rounded-lg scale-75 hover:scale-100 transition-all w-full;
+  }
+  
+  /* this is Header-Section end */
